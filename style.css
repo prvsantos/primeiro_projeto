@@ -1,0 +1,91 @@
+/* Retirando a configuração padrão do navegador */
+html, body {
+    margin: 0px;
+}
+
+/* BODY */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f0f5;
+
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+/* HEADER */
+header h1 {
+    /* Espaçamentos com margem */
+    margin-top: 70px;   
+}
+
+header h2 {
+    margin-top: 70px;
+
+}
+
+header p {
+    display: grid;
+    text-align: center;
+    margin: 50px 30%;
+}
+
+/* FORM */
+form {
+    
+    width: 30%;
+    margin: 30px auto;
+}
+
+form input {
+    font-style: italic;
+    /* largura do campo */
+    width: 100%;
+    /* espaçamento entre os campos */
+    margin-bottom: 4px;
+    /* corrigindo o comportamento padrão CSS, utilizando a 
+    largura definida no "width" */
+    box-sizing: border-box;
+    /* preenchimento dos elementos */
+    padding: 8px 16px;
+    /* arredondamento das bordas */
+    border-radius: 4px;
+    /* adicionando umq borda sólida */
+    border: 1px aqua solid;
+    background: linear-gradient(180deg, #F8F7F7 0%, rgba(239, 237, 237, 0) 84.38%);
+    border-radius: 4px;
+}
+
+.solucao, .desc {
+    display: flex;
+    text-align: initial;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    margin: 2px auto 4px;
+    padding: 8px 20px 60px 15px;
+    border: 1px aqua solid;
+    background: linear-gradient(180deg, #F8F7F7 0%, rgba(239, 237, 237, 0) 84.38%);
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    display: flex;
+    width: 80px;
+    margin: auto;
+    padding: 8px 16px;
+    border: 1px aqua solid;
+    border-radius: 4px;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    margin-top: auto;
+    padding-bottom: 16px;
+    font-size: 12px;
+    border: 1px solid #dcdcdc;
+}
+

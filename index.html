@@ -1,0 +1,66 @@
+    <!DOCTYPE html>
+    <!-- HTML
+    	# HYPERTEXT
+    	texto q contém links para outros documentos.
+    	
+    	# MARKUP
+    	texto conterá marcações chamadas de <tags>
+
+    	# LANGUAGE
+    	Sintaxe especifíca para escrita.
+        -->
+    <html>
+    <!-- head: São configurações da página.
+    Oferece informações úteis para o navegador e pode introduzir outros códigos como JavaScritp ou CSS -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>Controle do Plantão</title>
+        <!-- href: é o caminho para o arquivo CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- adicionar fontes através do site "https://fonts.google.com" -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- body: Corpo da página, ou seja, o conteúdo que fica visivél
+    para o usuário -->
+    <body>            
+        <!-- é o cabeçalho, ou seja, o topo da página -->
+        <header>
+            <h1>Incidentes e Alertas</h1>
+            <p>Esse formulário tem como objetivo, armazenar os incidentes que causam degradação nos serviços e os alertas críticos gerados automaticamente pela ferramenta de monitoramento.</p>
+            <h2>Controle Pessoal</h2>
+        </header>
+
+        <section class="form">
+
+            <form action="/" method="POST">
+                <input type="text" name="numero" placeholder="Informe o Número" maxlength="8">
+                <input type="text" name="aplicacao" placeholder="Aplicação">
+                <input type="text" name="acionamento" placeholder="Forma de Acionamento">
+                <input type="date" name="data" placeholder="Data">
+                <input type="text" name="inicio" placeholder="Início - 20:00">
+                <input type="text" name="fim" placeholder="Fim - 21:00">
+                <textarea class="desc" type="text" name="descricao" placeholder="Descrição" cols="50" maxlength="500"></textarea>
+                <textarea class="solucao" type="text" name="solucao" placeholder="Solução Aplicada" cols="50" maxlength="500"></textarea>
+                <button>Salvar</button>
+
+            </form>
+        </section>
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
+    </body>
+    
+    <!-- <hr /> : insere uma linha na página -->
+    
+    <!--footer: é o rodapé da página -->
+    <footer>👨‍🎓 Desenvolvido por Paulo Roberto 👨‍💻</footer>
+
+    </html>
