@@ -1,6 +1,6 @@
 /* Retirando a configuração padrão do navegador */
 html, body {
-    margin: 0px;
+    margin: 0px;    
 }
 
 /* BODY */
@@ -31,13 +31,14 @@ header p {
 }
 
 /* FORM */
-form {
+.form {
     
     width: 30%;
     margin: 30px auto;
 }
 
-form input {
+.form input,
+select {
     font-style: italic;
     /* largura do campo */
     width: 100%;
@@ -52,7 +53,8 @@ form input {
     border-radius: 4px;
     /* adicionando umq borda sólida */
     border: 1px aqua solid;
-    background: linear-gradient(180deg, #F8F7F7 0%, rgba(239, 237, 237, 0) 84.38%);
+    /* aplicando degradê nas cores */
+    background: linear-gradient(180deg, #F8F7F7 0%, rgba(240, 108, 108, 0) 84.38%);
     border-radius: 4px;
 }
 
@@ -70,7 +72,7 @@ form input {
     box-sizing: border-box;
 }
 
-form button {
+.form button {
     display: flex;
     width: 80px;
     margin: auto;
@@ -82,10 +84,9 @@ form button {
 }
 
 /* FOOTER */
+
 footer {
-    margin-top: auto;
-    padding-bottom: 16px;
     font-size: 12px;
-    border: 1px solid #dcdcdc;
+
 }
 
