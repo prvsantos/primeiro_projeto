@@ -37,14 +37,20 @@
         <section class="form">
 
             <form action="/" method="POST">
+                <select class="tipo" id="tipo">
+                    <option selected>Tipo Acionamento</option>
+                    <option value="1">Incidente</option>
+                    <option value="2">Alerta</option>
+                    <option value="3">Outro</option>
+                </select>                
                 <input type="text" name="numero" placeholder="Informe o Número" maxlength="8">
-                <input type="text" name="aplicacao" placeholder="Aplicação">
-                <input type="text" name="acionamento" placeholder="Forma de Acionamento">
-                <input type="date" name="data" placeholder="Data">
-                <input type="text" name="inicio" placeholder="Início - 20:00">
-                <input type="text" name="fim" placeholder="Fim - 21:00">
-                <textarea class="desc" type="text" name="descricao" placeholder="Descrição" cols="50" maxlength="500"></textarea>
-                <textarea class="solucao" type="text" name="solucao" placeholder="Solução Aplicada" cols="50" maxlength="500"></textarea>
+                <input type="text" name="plataforma" placeholder="Plataforma" required>
+                <input type="text" name="acionamento" placeholder="Forma de Acionamento" required>
+                <input type="date" name="data" placeholder="Data" required>
+                <input type="time" name="inicio" placeholder="Início" required>
+                <input type="time" name="fim" placeholder="Fim" required>
+                <textarea class="desc" type="text" name="descricao" placeholder="Descrição" cols="50" maxlength="500" required></textarea>
+                <textarea class="solucao" type="text" name="solucao" placeholder="Solução Aplicada" cols="50" maxlength="500" required></textarea>
                 <button>Salvar</button>
 
             </form>
@@ -59,7 +65,7 @@
     </body>
     
     <!-- <hr /> : insere uma linha na página -->
-    
+    <hr/>
     <!--footer: é o rodapé da página -->
     <footer>👨‍🎓 Desenvolvido por Paulo Roberto 👨‍💻</footer>
 
