@@ -1,10 +1,12 @@
-# Projeto Pessoal
-Criando meu primeiro projeto
+## Projeto Pessoal
+Meu primeiro projeto.
 
-# Objetivo
-Fazer o controle dos acionamentos do plantão.
+## Objetivo
+Fazer o controle dos acionamentos referente ao meu sobreaviso.
 
-# Tecnologias
-- HTML5
-- CSS3
+## 🛠 Tecnologias utilizadas
+- HTML
+- CSS
+
+#### 🚧 Em construção... 🚧
 
